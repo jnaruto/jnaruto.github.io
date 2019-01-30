@@ -1,10 +1,10 @@
 # Site settings
 title: Naruto Blog
-SEOTitle: »ğÓ°µÄ²©¿Í | Naruto Blog
+SEOTitle: ç«å½±çš„åšå®¢ | Naruto Blog
 header-img: img/post-bg-desk.jpg
 email: lanbery@gmail.com
 description: "Live for die."
-keyword: "Naruto, Naruto Blog, »ğÓ°µÄ²©¿Í, JNaruto"
+keyword: "Naruto, Naruto Blog, ç«å½±çš„åšå®¢, JNaruto"
 url: "https://jnaruto.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/jnaruto/jnaruto.github.io.git" # you code repository
@@ -47,22 +47,22 @@ kramdown:
 
 
 
-# ÆÀÂÛÏµÍ³
-# Disqus£¨https://disqus.com/£©
+# è¯„è®ºç³»ç»Ÿ
+# Disqusï¼ˆhttps://disqus.com/ï¼‰
 # disqus_username: 
 
 # Gitalk
 gitalk:
-  enable: true    #ÊÇ·ñ¿ªÆôGitalkÆÀÂÛ
-  clientID: 833885ebdd545b8a008b                            #Éú³ÉµÄclientID
-  clientSecret: 6b20843f35f2f097cce589687c76561d72038596     #Éú³ÉµÄclientSecret
-  repo: jnaruto.github.io    #²Ö¿âÃû³Æ
-  owner: jnaruto    #githubÓÃ»§Ãû
+  enable: true    #æ˜¯å¦å¼€å¯Gitalkè¯„è®º
+  clientID: 833885ebdd545b8a008b                            #ç”Ÿæˆçš„clientID
+  clientSecret: 6b20843f35f2f097cce589687c76561d72038596     #ç”Ÿæˆçš„clientSecret
+  repo: jnaruto.github.io    #ä»“åº“åç§°
+  owner: jnaruto    #githubç”¨æˆ·å
   admin: jnaruto
-  distractionFreeMode: true #ÊÇ·ñÆôÓÃÀàËÆFBµÄÒõÓ°ÕÚÕÖ
+  distractionFreeMode: true #æ˜¯å¦å¯ç”¨ç±»ä¼¼FBçš„é˜´å½±é®ç½©
 
 
-# Í³¼Æ
+# ç»Ÿè®¡
 
 # Analytics settings
 # Baidu Analytics
@@ -70,15 +70,15 @@ gitalk:
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # Ä¬ÈÏµÄÊÇ auto, ÕâÀïÎÒÊÇ×Ô¶¨ÒåÁËµÄÓòÃû£¬ÄãÈç¹ûÃ»ÓĞ×Ô¼ºµÄÓòÃû£¬ĞèÒª¸Ä³Éauto
+ga_domain: auto               # é»˜è®¤çš„æ˜¯ auto, è¿™é‡Œæˆ‘æ˜¯è‡ªå®šä¹‰äº†çš„åŸŸåï¼Œä½ å¦‚æœæ²¡æœ‰è‡ªå·±çš„åŸŸåï¼Œéœ€è¦æ”¹æˆauto
 
 
 
 
 
 # Featured Tags
-featured-tags: true                     # ÊÇ·ñÊ¹ÓÃÊ×Ò³±êÇ©
-featured-condition-size: 1              # ÏàÍ¬±êÇ©ÊıÁ¿´óÓÚÕâ¸öÊı£¬²Å»á³öÏÖÔÚÊ×Ò³
+featured-tags: true                     # æ˜¯å¦ä½¿ç”¨é¦–é¡µæ ‡ç­¾
+featured-condition-size: 1              # ç›¸åŒæ ‡ç­¾æ•°é‡å¤§äºè¿™ä¸ªæ•°ï¼Œæ‰ä¼šå‡ºç°åœ¨é¦–é¡µ
 
 
 
@@ -94,7 +94,7 @@ friends: [
         title: "NBSChain",
         href: "http://www.nbsio.net"
     },{
-        title: "¼òÊé¡¤Lanbery",
+        title: "ç®€ä¹¦Â·Lanbery",
         href: "http://www.jianshu.com/u/03bb6c19b4ca"
     },{
         title: "Weibo",
@@ -102,3 +102,5 @@ friends: [
     }
 ]
 
+
+theme: jekyll-theme-architect
