@@ -5,9 +5,13 @@ p.section-indent {
 a.copyright-link:hover {
 	color: #040A10;
 	text-decoration:none;
+	font-size:smaller;
+	margin-bottom: 10px;
 }
 
 a.copyright-link:link {
 	color: #021920;
 	text-decoration:none;
+	font-size:smaller;
+	margin-bottom: 10px;
 }
