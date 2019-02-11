@@ -1,3 +1,9 @@
+[![](https://img.shields.io/github/forks/jnaruto/jnaruto.github.io.svg?style=social&label=Fork)](https://github.com/jnaruto/jnaruto.github.io)
+
+>
+### [查看博客戳这里 👆](https://jnaruto.github.io)
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jnaruto/jnaruto.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
