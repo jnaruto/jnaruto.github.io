@@ -90,16 +90,7 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "NBSChain",
-        href: "http://www.nbsio.net"
-    },{
-        title: "简书·Lanbery",
-        href: "http://www.jianshu.com/u/03bb6c19b4ca"
-    },{
-        title: "Weibo",
-        href: "https://weibo.com/u/1879528630/home?wvr=5"
-    }
+
 ]
 
 
