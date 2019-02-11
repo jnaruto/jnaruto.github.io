@@ -1,13 +1,13 @@
 {
-  "name": "浮塵 Blog",
-  "short_name": "lanbery Blog",
-  "description": "A personal blog by engineer",
+  "name": "JNaruto's Blog",
+  "short_name": "JNaruto's Blog",
+  "description": "Naruto の一員",
   "icons": [{
-    "src": "icons/pwa_icon_128.png",
+    "src": "icons/jnaruto-icon-128.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/pwa_icon_512.png",
+    "src": "icons/jnaruto-icon-512.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
