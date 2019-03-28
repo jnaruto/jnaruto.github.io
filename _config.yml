@@ -1,10 +1,10 @@
 # Site settings
 title: JNaruto Blog
-SEOTitle: 火影的博客 | JNaruto Blog
+SEOTitle: JNaruto Blog
 header-img: img/naruto-graylight.jpg
 email: jnaruto168@gmail.com
 description: "Live for die."
-keyword: "naruto, JNaruto Blog, 火影的博客, JNaruto"
+keyword: "naruto, JNaruto Blog, JNaruto"
 url: "https://jnaruto.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/jnaruto/jnaruto.github.io.git" # you code repository

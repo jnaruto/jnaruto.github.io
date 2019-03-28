@@ -15,13 +15,16 @@ header-img: "img/about-jnaruto.gif"
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>不相信自己的人，连努力的价值都没有.</p></blockquote>
+    <blockquote><p>自分自身を信じていない人々、彼らの努力の価値さえも</p></blockquote>
 
     <p>Hey，私は<strong> NARUTO  - ナルト - のメンバーです(jnaruto)</strong>。</p>
 
-    <p>人生在世只有一次，不必勉强选择自己不喜欢的路，随性而生或随性而死都没关系，不过，无论选择哪条路，都不要忘记保护自己所珍惜的人</p>
+    <p>人生は世界で一度だけで、嫌いな道をしぶしぶ選ぶ必要はありませんセックスと一緒に暮らしているのかセックスと一緒に死んでいるのかは関係ありませんが、どちらを選んでも大切な人を守ることを忘れないでください。</p>
 
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的个人博客。我在GitHub主页<a href="https://github.com/jnaruto">👉GitHub·JNaruto</a> </p>
+    <p>
+        これは <a href="https://pages.github.com/">GitHub Pages</a>と<a href="http://jekyll.com.cn/">Jekyll</a>で作った私の個人ブログです。 
+        GitHubのホームページにいます<a href="https://github.com/jnaruto">👉GitHub·JNaruto</a> 
+    </p>
 
     <p></p>
     
@@ -97,7 +100,7 @@ header-img: "img/about-jnaruto.gif"
 </script>
 
 
-<!-- Gitalk 评论 start  -->
+<!-- Gitalk discuss start  -->
 {% if site.gitalk.enable %}
 <!-- Gitalk link  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
@@ -119,16 +122,16 @@ header-img: "img/about-jnaruto.gif"
 {% endif %}
 <!-- Gitalk end -->
 
- <!-- disqus 评论框 start  -->
+ <!-- disqus  start  -->
 {% if site.disqus.enable %}
 
 <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
     </div>
 </div>
-<!-- disqus 评论框 end -->
+<!-- disqus  end -->
 
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<!-- disqus start (one page only insert once) -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus.username}}";
@@ -141,6 +144,6 @@ header-img: "img/about-jnaruto.gif"
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<!-- disqus 公共JS代码 end -->
+<!-- disqus common JS code end -->
 {% endif %}
 
