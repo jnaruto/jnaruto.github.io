@@ -116,9 +116,20 @@ This memo describes a protocol that is an evolution of the previous
  +----+----------+----------+
 </html>
 <p class="section-indent">
-
-
+ The VER field is set to X'05' for this version of the protocol.  The
+   NMETHODS field contains the number of method identifier octets that
+   appear in the METHODS field.
+<br>
+   The server selects from one of the methods given in METHODS, and
+   sends a METHOD selection message:
 </p>
+<html>
+                         +----+--------+
+                         |VER | METHOD |
+                         +----+--------+
+                         | 1  |   1    |
+                         +----+--------+
+</html>
 <p class="section-indent">
 
 </p>
