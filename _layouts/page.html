@@ -125,7 +125,7 @@ layout: default
                            
                             {% if site.twitter_username %}
                             <li>
-                                <a href="https://twitter.com/{{ site.twitter_username }}">
+                                <a target="{{ site.twitter_username }}" href="https://twitter.com/{{ site.twitter_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -135,7 +135,7 @@ layout: default
                             {% endif %}
                             {% if site.zhihu_username %}
                             <li>
-                                <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
+                                <a target="{{ site.zhihu_username }}" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa  fa-stack-1x fa-inverse">知</i>
@@ -145,7 +145,7 @@ layout: default
                             {% endif %}
                             {% if site.facebook_username %}
                             <li>
-                                <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+                                <a target="{{site.facebook_username}}" href="https://www.facebook.com/{{ site.facebook_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -155,7 +155,7 @@ layout: default
                             {% endif %}
                             {% if site.github_username %}
                             <li>
-                                <a target="_blank" href="https://github.com/{{ site.github_username }}">
+                                <a target="{{ site.github_username }}" href="https://github.com/{{ site.github_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -166,7 +166,7 @@ layout: default
                             <!-- china social -->
                             {% if site.weibo_username %}
                             <li>
-                                <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
+                                <a target="{{site.weibo_username}}" href="http://weibo.com/{{ site.weibo_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -177,7 +177,7 @@ layout: default
                              <!-- add jianshu add target = "_blank" to <a> by BY -->
                             {% if site.jianshu_username %}
                             <li>
-                                <a target="_blank" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
+                                <a target="{{site.jianshu_username}}" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa  fa-stack-1x fa-inverse">简</i>
